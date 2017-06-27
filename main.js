@@ -30,7 +30,10 @@ function createWindow() {
   console.log(process.type)
   win = new BrowserWindow({
     width: 720, 
-    heght: 480 
+    heght: 480,
+    frame: false,
+    'titleBarStyle': 'hidden'
+    // transparent: true
   })
   win.loadURL(url.format({
     pathname: path.join(__dirname, 'index.html'),
