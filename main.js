@@ -1,18 +1,45 @@
-const { app, BrowserWindow } = require('electron')
+const electron = require('electron')
 const path = require('path')
 const url = require('url')
 
+const { app, BrowserWindow } = electron
+
 let win
 
+
+// const holder = document.getElementById('holder')
+// holder.ondragover = () => {
+//   return false
+// }
+// holder.ondragleave = holder.ondragend = () => {
+//   return false
+// }
+// holder.ondrop = (event) => {
+//   event.preventDefault()
+//   for (let f of event.dataTransfer.files) {
+//     console.log(`File(s) you dragged here: `, f.path)
+//     console.dir(f)
+//   }
+//   return false
+// }
+
+
+
+
 function createWindow() {
-  win = new BrowserWindow({ width: 200, heght: 600 })
+  console.log(process.type)
+  win = new BrowserWindow({
+    width: 720, 
+    heght: 480 
+  })
   win.loadURL(url.format({
     pathname: path.join(__dirname, 'index.html'),
+    // pathname: 'v2ex.com',
     protocol: 'file',
     slashes: true
   }))
 
-  win.webContents.openDevTools()
+  // win.webContents.openDevTools()
 
   win.on('closed', () => {
     win = null
@@ -20,6 +47,7 @@ function createWindow() {
 }
 
 app.on('ready', createWindow)
+
 app.on('window-all-closed', () => {
   if (process.platform !== 'darwin') {
     app.quit()
