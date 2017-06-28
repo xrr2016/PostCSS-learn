@@ -61,7 +61,7 @@
 # . ./test1.sh
 source ./test1.sh
 
-echo "我的名字是: \t $my_name"
+echo "我的名字是:  $my_name"
 
 
 
