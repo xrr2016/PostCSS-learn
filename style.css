@@ -3,5 +3,51 @@
 }
 
 html, body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0;
+  background: #222;
 }
+
+.container {
+  cursor: pointer;
+  margin-top: 100px;
+}
+
+.container span {
+  position: relative;
+  top: 0;
+  display: block;
+  width: 100px;
+  height: 14px;
+  background: #ffffff;
+  margin-bottom: 10px;
+  transition: all .3s ease-in;
+}
+
+.container.open span:nth-of-type(2),
+.container.open span:nth-of-type(3) {
+  width: 0;
+  opacity: 0;
+}
+
+.container.open span:nth-of-type(1) {
+  transform: rotate(-45deg);
+  top: 36px;
+}
+.container.open span:nth-of-type(4) {
+  transform: rotate(45deg);
+  top: -36px;
+}
+
+
+
+
+
+
+
+
+
+
+
