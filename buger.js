@@ -1,21 +1,36 @@
 (function () {
   class Burger {
-    constructor (selector = "", opt = {}) {
+    constructor (selector = '', opts = {}) {
       this.selector = selector
-      this.opt = opt
+      this.opts = opts
       this.init()
     }
     init () {
-
+     const _opts = {
+        bars: 4,
+        width: 50,
+        height: 7,
+        background: '#fff',
+        anime: 'ease-in',
+        cb: null
+      }
+      Object.assign()
+      console.log(this._opts)
     }
     render () {
-      const temp = `<div class=""></div>`
+      const f = document.createDocumentFragment() 
+      
     }
     listener () {
       
     }
+    
   }
+  new Burger('burger', {
+    width: 60
+  })
 })()
+
 
 const cb = function () { console.log('toggle open') }
 
