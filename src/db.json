@@ -1,23 +1,90 @@
 {
   "items": [
-    { "id": 1, "name": "小米MIX 2", "price": 3299 },
-    { "id": 1, "name": "小米Note 3", "price": 2499 },
-    { "id": 1, "name": "小米 5X", "price": 1499 },
-    { "id": 1, "name": "小米电视4 65英寸", "price": 8999 },
-    { "id": 1, "name": "小米笔记本Pro 15.6", "price": 5599 },
-    { "id": 1, "name": "米家扫地机器人", "price": 1699 },
-    { "id": 1, "name": "米家 IH 电饭煲 4L版", "price": 599 }
+    {
+      "id": 1,
+      "name": "小米MIX 2",
+      "price": 3299,
+      "img": "https://i1.mifile.cn/a1/pms_1505401551.09912910!140x140.jpg"
+    },
+    {
+      "id": 2,
+      "name": "小米Note 3",
+      "price": 2499,
+      "img": "https://i1.mifile.cn/a4/xmad_1508760370419_xNWOg.jpg"
+    },
+    {
+      "id": 3,
+      "name": "九号平衡车",
+      "price": 1999,
+      "img": "https://i1.mifile.cn/a1/T1PXhgBbdT1RXrhCrK!220x220.jpg"
+    },
+    {
+      "id": 4,
+      "name": "小米5X",
+      "price": 1499,
+      "img": "https://i1.mifile.cn/a1/pms_1502962275.73995818!280x280.jpg"
+    }
   ],
   "recommends": [
-    { "id": 1, "name": "小米note 3", "price": 2499 },
-    { "id": 1, "name": "小米手环 2", "price": 149 },
-    { "id": 1, "name": "红米4X", "price": 699 },
-    { "id": 1, "name": "小米路由器3", "price": 149 },
-    { "id": 1, "name": "米家压力IH电饭煲", "price": 999 },
-    { "id": 1, "name": "红米Note 4X", "price": 999 },
-    { "id": 1, "name": "小米电视4A 43英寸 标准版", "price": 1899 },
-    { "id": 1, "name": "小米笔记本", "price": 3599 },
-    { "id": 1, "name": "米家空气净化器Pro", "price": 1499 },
-    { "id": 1, "name": "米家智能摄像机云台版", "price": 199 }
+    {
+      "id": 5,
+      "name": "小米笔记本Pro 15.6",
+      "price": 5599,
+      "img": "https://i1.mifile.cn/a1/pms_1505106710.28498495!220x220.jpg"
+    },
+    {
+      "id": 6,
+      "name": "小米AI音箱",
+      "price": 299,
+      "img": "https://i1.mifile.cn/a1/pms_1501057018.70015369!220x220.jpg"
+    },
+    {
+      "id": 7,
+      "name": "米家床头灯",
+      "price": 249,
+      "img": "https://i1.mifile.cn/a1/pms_1508724951.09887337!220x220.jpg"
+    },
+    {
+      "id": 11,
+      "name": "小米路由器3",
+      "price": 89,
+      "img": "https://i1.mifile.cn/a1/pms_1470288129.01686992!220x220.jpg"
+    },
+    {
+      "id": 12,
+      "name": "小米电视4A 43英寸",
+      "price": 1899,
+      "img": "https://i1.mifile.cn/a1/pms_1503909150.67293503!220x220.png"
+    },
+    {
+      "id": 13,
+      "name": "米家恒温电水壶",
+      "price": 199,
+      "img": "https://i1.mifile.cn/a1/pms_1465366178.11466342!220x220.jpg"
+    },
+    {
+      "id": 14,
+      "name": "米家 iHealth 血压计",
+      "price": 399,
+      "img": "https://i1.mifile.cn/a1/T1HQA_BCd_1RXrhCrK!220x220.jpg"
+    },
+    {
+      "id": 15,
+      "name": "米兔智能故事机",
+      "price": 199,
+      "img": "https://i1.mifile.cn/a1/pms_1464615180.86261317!220x220.jpg"
+    },
+    {
+      "id": 16,
+      "name": "小米无人机 4k 版",
+      "price": 2949,
+      "img": "https://i1.mifile.cn/a1/pms_1487824962.01314237!220x220.jpg"
+    },
+    {
+      "id": 16,
+      "name": "小米随身蓝牙音箱",
+      "price": 69,
+      "img": "https://i1.mifile.cn/a1/T1LqYgBCWv1RXrhCrK!220x220.jpg"
+    }
   ]
 }
