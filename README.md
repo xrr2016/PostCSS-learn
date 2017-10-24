@@ -4,8 +4,6 @@
 
 ![](snip/snip.gif)
 
-[Check](138.128.200.22:6666)
-
 ``` bash
 # install dependencies
 npm install
