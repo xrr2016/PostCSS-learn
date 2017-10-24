@@ -1,5 +1,11 @@
 # vue-shopping-cart
 
+[![GitHub issues](https://img.shields.io/github/issues/xrr2016/vue-shopping-cart.svg)](https://github.com/xrr2016/vue-shopping-cart/issues) ![progress](https://img.shields.io/badge/progress-90-green.svg)
+
+![](snip/snip.gif)
+
+[Check](138.128.200.22:6666)
+
 ``` bash
 # install dependencies
 npm install
